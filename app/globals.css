@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+.z-10.w-full.max-w-5xl.items-center.justify-between.font-mono.text-sm.lg\:flex {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+h2.mb-3.text-2xl.font-semibold:hover {
+  background: red;
+  color: white;
+  /* padding: 10px; */
+}
+
+a.group.rounded-lg.border.border-transparent.px-5.py-4.transition-colors.hover\:border-gray-300.hover\:bg-gray-100.hover\:dark\:border-neutral-700.hover\:dark\:bg-neutral-800\/30:hover {
+  /* background-color: transparent; */
+  padding: 0;
+}
+select#category {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+}
+select#subcategory {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+}
+input#initialDeposit {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#loanPeriod {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#cnic{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#email{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#name{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#password{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+input#newPassword{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  padding: 10px;
+}
+
